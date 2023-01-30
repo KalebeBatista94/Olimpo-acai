@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Olimpo Açai</title>
+  </head>
+
+  <body>
+    <div class="logo-img-responsive">
+      <img src="./assets/logo2.png" alt="logo-img" />
+    </div>
+    <header id="scrollHide">
+      <img class="logo-image" width="150px" src="./assets/logo2.png" alt="" />
+      <nav>
+        <a href="#" class="nav-link underline">HOME</a>
+        <a href="#porque-o-melhor" class="nav-link underline"
+          >POR QUE O MELHOR?</a
+        >
+        <a href="#intuitive-menu" class="nav-link underline">NOSSOS PRODUTOS</a>
+        <a href="#contatos" class="nav-link underline">CONTATOS</a>
+      </nav>
+    </header>
+
+    <section class="bg-acai">
+      <div class="section-text">
+        <h1>O MELHOR AÇAÍ DE BRASÍLIA<br />venha provar!!</h1>
+      </div>
+    </section>
+
+    <section id="porque-o-melhor" class="main-text">
+      <div class="bg-text">
+        <h2>POR QUE O MELHOR?</h2>
+        <p>
+          NOSSO PROPÓSITO É PRESERVAR O VERDADEIRO E PURO SABOR DO AÇAÍ. NOSSA
+          RECEITA EXCLUSIVA É COM XAROPE, SEM ADIÇÃO DE ÁGUA, CONSERVANTES,
+          CORANTES, EMULSIFICANTES ARTIFICIAIS E GORDURA TRANS.
+        </p>
+      </div>
+      <a href="./assets/CARDÁPIO AÇAI.pdf" target="_blank">Nosso cardápio</a>
+    </section>
+
+    <section class="intuitive-menu">
+      <div class="intuitive-text">
+        <h3 id="intuitive-menu">NOSSOS PRODUTOS</h3>
+      </div>
+
+      <div class="text-intuive-menu">
+        <img class="main-image" src="./assets/acai_copo.jpg" alt="acai-copo" />
+      </div>
+
+      <p id="texto-da-imagem"></p>
+
+      <div class="images-intuitive-menu">
+        <img
+          id="btn-image"
+          class="btn-image"
+          src="./assets/acai_copo.jpg"
+          alt="acai-no-copo"
+          onclick="changeImage('./assets/acai_copo.jpg')"
+        />
+        <img
+          id="btn-image2"
+          class="btn-image"
+          src="./assets/acai_iris.jpg"
+          alt="acai-no-copo-iris"
+          onclick="changeImage('./assets/acai_iris.jpg')"
+        />
+        <img
+          id="btn-image3"
+          class="btn-image"
+          src="./assets/crepe_doce.jpg"
+          alt="crepe-doce"
+          onclick="changeImage('./assets/crepe_doce.jpg')"
+        />
+        <img
+          id="btn-image4"
+          class="btn-image"
+          src="./assets/crepe-salgado.jpg"
+          alt="crepe-salgado"
+          onclick="changeImage('./assets/crepe-salgado.jpg')"
+        />
+      </div>
+    </section>
+
+    <section id="contatos">
+      <div class="request">
+        <h2>Faça <span>JÁ</span> o seu pedido pelo nosso whatsapp</h2>
+        <a
+          href="https://api.whatsapp.com/send?phone=556134621484&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!"
+          target="_blank"
+          ><img width="80px" src="./assets/whatsapp.png" alt="img-whatsapp"
+        /></a>
+      </div>
+    </section>
+
+    <section class="contact-us-section">
+      <div class="contact-us">
+        <h3>Quer ser nosso franquiado?</h3>
+        <a
+          href="https://api.whatsapp.com/send?phone=5561998031008&text=Ol%C3%A1!%20Eu%20estou%20interessado%20em%20adquirir%20uma%20franquia%20do%20Olimpo%20A%C3%A7a%C3%AD.%20Estou%20animado%20para%20conversar%20com%20a%20equipe%20do%20Olimpo%20e%20saber%20mais%20sobre%20como%20posso%20me%20tornar%20um%20afiliado."
+          target="_blank"
+          >Entre em contato conosco agora mesmo!</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <div class="text-footer">
+        <img width="20px" src="./assets/instagram.png" alt="instagram" />
+        <a href="http://instagram.com/acaiolimpo" target="_blank"
+          ><p>@acaiolimpo</p></a
+        >
+        <img width="20px" src="./assets/gps.png" alt="logo-adress" />
+        <p>
+          SHCES Quadra 411, BLoco B, Comércio L.45 - Cruzeiro Novo, Brasília-DF
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
