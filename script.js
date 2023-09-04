@@ -48,8 +48,6 @@ window.addEventListener('scroll', () => {
     }
 })
 
-//troca de imagem mais suave
-//resetar e voltar ao inicio da pagina ao clicar o botao home
-// quando clicar na imagem aparecer uma texto explicativo ... como fazer para as 4 imagens sem utilizar muito código...
+
 
 
